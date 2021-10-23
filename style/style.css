@@ -1,0 +1,230 @@
+/* ----------------EXERCICI 1--------------- */
+/* -------------General----------------- */
+.container{
+    max-width:1200px;
+}
+p{
+    height: 1rem;
+    margin: 1rem;
+}
+/* -----------------Capsalera------------------ */
+.cap{
+    border: .5rem solid black;
+}
+nav{
+    border: .25rem solid black;
+    background-color:#37474f ;
+    display: flex;
+    justify-content: space-between;
+}
+.itempetit{
+    background-color: salmon;
+    flex-grow: 3;
+}
+.itemgran{
+    background-color: salmon;
+    flex-grow: 5;
+}
+header{
+    border: .25rem solid black;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+}
+header p{
+    background-color: rgb(197, 174, 45);
+    flex-grow: 1;
+}
+/* ------------------Cos------------------- */
+.cos{
+    border: .5rem solid black; 
+    margin: 1rem auto;
+    display: flex;
+
+}
+section{
+    border: .25rem solid black;
+    background-color: #37474f;
+    flex-grow: 2;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article p{
+    background-color: rgb(65, 65, 197);
+    flex-grow: 1;
+}
+.itemcosgran{
+    background-color: lightblue;
+}
+aside{
+    border: .25rem solid black;
+    background-color: rgb(218, 33, 33);
+    flex-grow: 1;
+}
+aside p{
+    background-color: rgb(214, 214, 132);
+}
+/* ----------------Footer------------------ */
+footer{
+    border: .8rem solid black;
+    background-color: rgb(221, 133, 32);
+}
+/* ---------------EXERCICI 2----------------- */
+@media screen and (max-width:768px) {
+/* ----------------General--------------------- */
+/* -------------General----------------- */
+.container{
+    max-width:1200px;
+}
+p{
+    height: 1rem;
+    margin: 1rem;
+}
+/* -----------------Capsalera------------------ */
+.cap{
+    border: .5rem solid black;
+}
+nav{
+    border: .25rem solid black;
+    background-color:#37474f ;
+    display: flex;
+    justify-content: space-between;
+}
+.itempetit{
+    background-color: salmon;
+    flex-grow: 3;
+}
+.itemgran{
+    background-color: salmon;
+    flex-grow: 5;
+}
+header{
+    border: .25rem solid black;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+}
+header p{
+    background-color: rgb(197, 174, 45);
+    flex-grow: 1;
+}
+/* ------------------Cos------------------- */
+.cos{
+    border: .5rem solid yellow; 
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    border: .25rem solid yellow;
+    background-color: #37474f;
+    flex-grow: 2;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article p{
+    background-color: rgb(65, 65, 197);
+    flex-grow: 1;
+}
+.itemcosgran{
+    background-color: lightblue;
+}
+aside{
+    border: .25rem solid yellow;
+    background-color: rgb(218, 33, 33);
+    flex-grow: 1;
+}
+aside p{
+    background-color: rgb(214, 214, 132);
+}
+/* ----------------Footer------------------ */
+footer{
+    border: .8rem solid black;
+    background-color: rgb(221, 133, 32);
+}
+}
+/* --------------------EXERCICI 3-------------- */
+@media screen and (max-width:425px) {
+
+/* -------------General----------------- */
+.container{
+    max-width:1200px;
+}
+p{
+    height: 1rem;
+    margin: 1rem;
+}
+/* -----------------Capsalera------------------ */
+.cap{
+    border: .5rem solid black;
+}
+nav{
+    border: .25rem solid black;
+    background-color:#37474f ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itempetit{
+    background-color: salmon;
+    flex-grow: 3;
+}
+.itemgran{
+    background-color: salmon;
+    flex-grow: 5;
+}
+header{
+    border: .25rem solid black;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+}
+header p{
+    background-color: rgb(197, 174, 45);
+    flex-grow: 1;
+}
+/* ------------------Cos------------------- */
+.cos{
+    border: .5rem solid yellow; 
+    margin: 1rem auto;
+    display: flex;
+
+}
+section{
+    border: .25rem solid yellow;
+    background-color: #1a254b;
+    flex-grow: 2;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article p{
+    background-color: rgb(56, 56, 116);
+    flex-grow: 1;
+}
+.itemcosgran{
+    background-color: lightblue;
+}
+aside{
+    border: .25rem solid yellow;
+    background-color: rgb(218, 33, 33);
+    flex-grow: 1;
+}
+aside p{
+    background-color: rgb(214, 214, 132);
+}
+/* ----------------Footer------------------ */
+footer{
+    border: .8rem solid black;
+    background-color: rgb(221, 133, 32);
+}
+}
